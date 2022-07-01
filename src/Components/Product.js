@@ -14,11 +14,9 @@ import IconPlus from '../images/icon-plus.svg';
 import IconPrev from '../images/icon-previous.svg';
 import IconNext from '../images/icon-next.svg';
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import {} from '@fortawesome/fontawesome-svg-core';
-// import {faXmark, faAngleLeft, faAngleRight} from '@fortawesome/free-solid-svg-icons';
+
 import './Product.css';
- function Lightbox() {
+ function Product() {
     const {quantity, setQuantity} = useContext(AppContext);
 
     const unit = 125.00;
@@ -168,4 +166,4 @@ import './Product.css';
     )
 }
 
-export default Lightbox;
+export default Product;
