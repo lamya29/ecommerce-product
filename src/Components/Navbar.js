@@ -7,10 +7,7 @@ import Delete from '../images/icon-delete.svg';
 import './Navbar.css';
 import { AppContext } from '../AppContext';
 import { FaBars, FaTimes } from 'react-icons/fa';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import {} from '@fortawesome/fontawesome-svg-core';
-// import menu from '@fortawesome/free-solid-svg-icons';
-// import {farShoppingCart} from '@fortawesome/free-regular-svg-icons';
+
 
  function Navbar() {
   const [click , setClick] = useState(false);
